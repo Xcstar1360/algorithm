@@ -6,13 +6,13 @@ import (
 	"github.com/Xcstar1360/algorithm/common"
 )
 
-type testCase struct {
+type testCase1 struct {
 	nums   []int
 	target int
 	ans    []int
 }
 
-var test_Cases = []testCase{
+var test_Cases1 = []testCase1{
 	{
 		nums:   []int{2, 7, 11, 15},
 		target: 9,
@@ -31,7 +31,7 @@ var test_Cases = []testCase{
 }
 
 func TestTwoSum(t *testing.T) {
-	for _, v := range test_Cases {
+	for _, v := range test_Cases1 {
 		var res = twoSum(v.nums, v.target)
 		if !common.SliceEq(res, v.ans) {
 			t.Errorf(

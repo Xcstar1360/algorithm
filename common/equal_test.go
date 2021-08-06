@@ -20,3 +20,16 @@ func TestSliceEq(t *testing.T) {
 		t.Errorf("%v should not equals to %v", a, d)
 	}
 }
+
+func TestListEq(t *testing.T) {
+	l1 := ConstructList([]int{1, 2, 3, 4})
+	l2 := ConstructList([]int{1, 3, 2, 4})
+	l3 := ConstructList([]int{1, 2, 3, 4})
+
+	if ListEq(l1, l2) {
+		t.Errorf("l1 should not be equals to l2")
+	}
+	if !ListEq(l1, l3) {
+		t.Errorf("l1 should be equals to l3")
+	}
+}
