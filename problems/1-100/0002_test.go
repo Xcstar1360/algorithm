@@ -35,7 +35,7 @@ func TestAddTwoNumbers(t *testing.T) {
 		var res = addTwoNumbers(v.l1, v.l2)
 		if !c.ListEq(res, v.ans) {
 			t.Errorf(
-				"list1: %v + list2: %v, the result should be %v, but got %v",
+				"\nlist1: %v + list2: %v\nthe result should be %v\nbut got %v",
 				v.l1,
 				v.l2,
 				v.ans,

@@ -22,6 +22,7 @@ func (l *ListNode) String() string {
 		buffer.WriteString(fmt.Sprint(l.Val))
 		buffer.WriteString("->")
 		len++
+		l = l.Next
 	}
 	buffer.WriteString("nil")
 

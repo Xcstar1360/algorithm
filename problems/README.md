@@ -1,5 +1,3 @@
-### Notice
-* 不要直接复制代码去 leetcode 提交，因为有些地方会有调整，以第二题为例
 ### Description
 * \d{4}\.go 代表题号
 * \d{4}_test\.go 是这题的单元测试
