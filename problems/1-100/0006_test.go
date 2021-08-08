@@ -2,6 +2,13 @@ package problem1_100
 
 import "testing"
 
+/**
+ * 1 <= s.length <= 1000
+ * 字符串由英文字母(包含大小写)、',' 以及 '.' 组成
+ * s consists of English letters (lower-case and upper-case), ',' and '.'.
+ * 1 <= numRows <= 1000
+ */
+
 type testCase6 struct {
 	s   string
 	row int

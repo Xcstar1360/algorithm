@@ -6,6 +6,14 @@ import (
 	"github.com/Xcstar1360/algorithm/common"
 )
 
+/**
+ * 2 <= nums.length <= 104
+ * -109 <= nums[i] <= 109
+ * -109 <= target <= 109
+ * 只会有一个正确答案存在
+ * Only one valid answer exists
+ */
+
 type testCase1 struct {
 	nums   []int
 	target int

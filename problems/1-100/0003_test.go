@@ -2,6 +2,12 @@ package problem1_100
 
 import "testing"
 
+/**
+ * 0 <= s.length <= 5 * 10^4
+ * 字符串只包含英文字母、数字、符号及空格
+ * s consists of English letters, digits, symbols and spaces.
+ */
+
 type testCase3 struct {
 	s   string
 	ans int

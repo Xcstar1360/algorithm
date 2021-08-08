@@ -6,6 +6,14 @@ import (
 	c "github.com/Xcstar1360/algorithm/common"
 )
 
+/**
+ * 每条链表上的节点数在 1~100 之间
+ * The number of nodes in each linked list is in the range [1, 100].
+ * 0 <= Node.val <= 9
+ * 保证链表表示的数字没有前导0
+ * It is guaranteed that the list represents a number that does not have leading zeros.
+ */
+
 type testCase2 struct {
 	l1  *c.ListNode
 	l2  *c.ListNode

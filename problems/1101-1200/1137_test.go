@@ -2,6 +2,12 @@ package problem1101_1200
 
 import "testing"
 
+/**
+ * 0 <= n <= 37
+ * 答案确保是 32 位以内的整数
+ * The answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.
+ */
+
 type testCase1137 struct {
 	n   int
 	ans int
