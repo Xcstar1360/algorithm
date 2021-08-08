@@ -1,4 +1,4 @@
-package one
+package problem1_100
 
 import (
 	c "github.com/Xcstar1360/algorithm/common"

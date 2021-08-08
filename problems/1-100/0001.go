@@ -1,4 +1,4 @@
-package one
+package problem1_100
 
 /**
  * 解法一: 利用 hash
